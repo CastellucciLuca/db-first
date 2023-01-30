@@ -1,17 +1,17 @@
 Concessionario - Auto Usate
 
-id                  - intero  - SMALLINT
-marca_auto          - stringa - VARCHAR(30)
-modello_auto        - stringa - VARCHAR(50)
-anno_produzione     - data    - YEAR
-chilometraggio      - intero  - MEDIUMINT
-potenza_motore      - intero  - SMALLINT
-carburante_vettura  - stringa - VARCHAR(20)
-cambio_vettura      - stringa - VARCHAR(20)
-tipologia_freni     - stringa - VARCHAR(20)
-trazione_vettura    - stringa - VARCHAR (10)
-numero_porte        - intero  - TINYINT
-numero_posti        - intero  - TINYINT
-numero_proprietari  - intero  - TINYINT
-prezzo              - float   - FLOAT(6,2)
+id                  - intero  - SMALLINT     - PRIMARY_KEY AUTO_INCREMENT
+marca_auto          - stringa - VARCHAR(30)  - NOTNULL
+modello_auto        - stringa - VARCHAR(50)  - NOTNULL
+anno_produzione     - data    - YEAR         - NULL
+chilometraggio      - intero  - MEDIUMINT    - NOTNULL
+potenza_motore      - intero  - SMALLINT     - NOTNULL
+carburante_vettura  - stringa - VARCHAR(20)  - NOTNULL
+cambio_vettura      - stringa - VARCHAR(20)  - NOTNULL
+tipologia_freni     - stringa - VARCHAR(20)  - NOTNULL
+trazione_vettura    - stringa - VARCHAR (10) - NOTNULL
+numero_porte        - intero  - TINYINT      - NOTNULL
+numero_posti        - intero  - TINYINT      - NOTNULL
+numero_proprietari  - intero  - TINYINT      - NOTNULL
+prezzo              - float   - FLOAT(6,2)   - NOTNULL
 
