@@ -13,5 +13,5 @@ trazione_vettura    - stringa - VARCHAR (10)
 numero_porte        - intero  - TINYINT
 numero_posti        - intero  - TINYINT
 numero_proprietari  - intero  - TINYINT
-prezzo              - float   - FLOAT(6,3)
+prezzo              - float   - FLOAT(6,2)
 
