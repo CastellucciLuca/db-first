@@ -1,0 +1,15 @@
+Concessionario - Auto Usate
+
+id                  - intero  - SMALLINT
+marca_auto          - stringa - VARCHAR(30)
+modello_auto        - stringa - VARCHAR(50)
+anno_produzione     - data    - YEAR
+chilometraggio      - intero  - MEDIUMINT
+potenza_motore      - intero  - SMALLINT
+carburante_vettura  - stringa - VARCHAR(20)
+cambio_vettura      - stringa - VARCHAR(20)
+numero_porte        - intero  - TINYINT
+numero_posti        - intero  - TINYINT
+numero_proprietari  - intero  - TINYINT
+prezzo              - float   - DECIMAL(I, D)
+
