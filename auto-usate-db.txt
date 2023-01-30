@@ -8,8 +8,10 @@ chilometraggio      - intero  - MEDIUMINT
 potenza_motore      - intero  - SMALLINT
 carburante_vettura  - stringa - VARCHAR(20)
 cambio_vettura      - stringa - VARCHAR(20)
+tipologia_freni     - stringa - VARCHAR(20)
+trazione_vettura    - stringa - VARCHAR (10)
 numero_porte        - intero  - TINYINT
 numero_posti        - intero  - TINYINT
 numero_proprietari  - intero  - TINYINT
-prezzo              - float   - DECIMAL(I, D)
+prezzo              - float   - DECIMAL(6,3)
 
